@@ -1,0 +1,7 @@
+syntax: glob
+Win32/*
+x64/*
+.vs/*
+*.sdf
+*.VC.db
+*.VC.opendb

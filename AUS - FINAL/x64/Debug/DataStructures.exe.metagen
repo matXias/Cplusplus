@@ -1,0 +1,276 @@
+  DataStructures.data.form_data.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.form_main.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.action_history.panel_action_history.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.array.panel_array.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.graph.panel_graph.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.list.panel_list.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.logger.panel_logger.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.panel_controls.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.panel_structures.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.performance_chart.panel_performance_chart.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.sorting.panel_sorting.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.priority_queue.panel_priority_queue.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.queue.panel_queue.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.stack.panel_stack.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.table.panel_table.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.tree.panel_tree.resources - Embedded, ContainedInManifestFile, 
+  DataStructures.ui.vector.panel_vector.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly DataStructures, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class data.FormData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(FormType, FormMode, System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setData(Void*, UInt64): PrivateScope, Public, HideBySig
+Struct data.FormData+FormType: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    FormType dftBYTE = 0 : Public, Static, Literal, HasDefault
+    FormType dftDATA = 1 : Public, Static, Literal, HasDefault
+    FormType dftPRIORITY = 2 : Public, Static, Literal, HasDefault
+    FormType dftKEY = 3 : Public, Static, Literal, HasDefault
+    FormType dftVERTEX_ID = 4 : Public, Static, Literal, HasDefault
+    FormType dftINT = 5 : Public, Static, Literal, HasDefault
+    FormType dftDOUBLE = 6 : Public, Static, Literal, HasDefault
+    FormType dftSTRING = 7 : Public, Static, Literal, HasDefault
+Struct data.FormData+ModalResult: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ModalResult mrOK = 0 : Public, Static, Literal, HasDefault
+    ModalResult mrCANCEL = 1 : Public, Static, Literal, HasDefault
+    ModalResult mrNONE = 2 : Public, Static, Literal, HasDefault
+Struct data.FormData+FormMode: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    FormMode fmVIEW = 0 : Public, Static, Literal, HasDefault
+    FormMode fmEDIT = 1 : Public, Static, Literal, HasDefault
+Class ui.FormMain: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Struct ui.InfoRegistrationParams: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ui.InfoItem: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ui.StructureInfo: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ui.SingleInfoContainer: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ui.PerformanceParams: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class ui.PanelPerformanceChart: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    presentStructure(Structure*, StructureADT): PrivateScope, Public, HideBySig
+    actionPerformed(PerformanceInfo*): PrivateScope, Public, HideBySig
+Struct ui.ActionMemento: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct ui.OperationParams: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class ui.PanelActionHistory: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    presentStructure(Structure*, StructureADT): PrivateScope, Public, HideBySig
+    actionPerformed(OperationInfo*): PrivateScope, Public, HideBySig
+Class ui.PanelControls: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ui.PanelActionHistory PanelHistory 'get ' : 
+    ui.PanelPerformanceChart PanelPerformance 'get ' : 
+    System.Windows.Forms.FlowLayoutPanel ControlsPanel 'get ' : 
+    System.Windows.Forms.Control PanelPresent 'get set' : 
+  Methods:
+    get_PanelPresent(): PrivateScope, Public, HideBySig, SpecialName
+    set_PanelPresent(Control): PrivateScope, Public, HideBySig, SpecialName
+    get_ControlsPanel(): PrivateScope, Public, HideBySig, SpecialName
+    get_PanelPerformance(): PrivateScope, Public, HideBySig, SpecialName
+    get_PanelHistory(): PrivateScope, Public, HideBySig, SpecialName
+    showPresentPanel(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+Class ui.ControlsLock: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    beginUpdate(): PrivateScope, Public, HideBySig
+    endUpdate(): PrivateScope, Public, HideBySig
+    isUpdating(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class ui.ControlsDirector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Methods:
+    getInstance(): PrivateScope, Public, Static, HideBySig
+    createControlsHolderInstance(StructureADT, Control): PrivateScope, Public, HideBySig
+    getControlsHolderInstance(StructureADT): PrivateScope, Public, HideBySig
+Class ui.ControlsHolder: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(structures.StructureADT): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ui.PanelControls ControlsPanel 'get ' : 
+    ui.ControlsLock Lock 'get ' : 
+    System.Collections.Generic.List`1[ui.Action] Actions 'get ' : 
+    structures.Structure* Structure 'get set' : 
+    structures.StructureADT ADT 'get ' : 
+  Methods:
+    get_ADT(): PrivateScope, Public, HideBySig, SpecialName
+    get_Structure(): PrivateScope, Public, HideBySig, SpecialName
+    set_Structure(Structure*): PrivateScope, Public, HideBySig, SpecialName
+    get_Actions(): PrivateScope, Public, HideBySig, SpecialName
+    get_Lock(): PrivateScope, Public, HideBySig, SpecialName
+    get_ControlsPanel(): PrivateScope, Public, HideBySig, SpecialName
+    createPanels(Control): PrivateScope, Public, HideBySig
+    visualizeStructure(): PrivateScope, Public, HideBySig
+    show(): PrivateScope, Public, HideBySig
+    hide(): PrivateScope, Public, HideBySig
+    getAction(Int32): PrivateScope, Public, HideBySig
+    createActions(List`1): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    enableControls(): PrivateScope, Public, HideBySig
+Class ui.PanelStructures: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+  Properties:
+    structures.StructureADS SelectedADS 'get ' : 
+    structures.Structure* SelectedStructure 'get ' : 
+    structures.Structure* StructureByItem [System.Windows.Forms.ListViewItem] 'get ' : 
+  Methods:
+    get_StructureByItem(ListViewItem): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedStructure(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedADS(): PrivateScope, Public, HideBySig, SpecialName
+    createAndIntegratePanelStructures(Panel, StructureADT): PrivateScope, Public, Static, HideBySig
+Struct ui.UISortNotifier: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class ui.PanelSorting: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+  Methods:
+    createAndIntegratePanelSorting(Panel): PrivateScope, Public, Static, HideBySig
+    doSortUpdate(): PrivateScope, Public, HideBySig
+Class ui.PanelLogger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ui.log.ILoggerProvider
+  Methods:
+    createAndIntegrateLogger(Panel): PrivateScope, Public, Static, HideBySig
+    log(LogType, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ui.ColorScheme: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+  Methods:
+    getColor(Double, Double, Double): PrivateScope, Public, HideBySig
+Class ui.ColorSchemeJet: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ui.ColorScheme
+  Methods:
+    getInstance(): PrivateScope, Public, Static, HideBySig
+Class ui.PanelPresentVector: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.Vector* Vector 'get ' : 
+    System.Windows.Forms.ListViewItem SelectedItem 'get ' : 
+  Methods:
+    get_SelectedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_Vector(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Vector*): PrivateScope, Public, HideBySig
+    refreshItem(ListViewItem): PrivateScope, Public, HideBySig
+    refreshSelectedItem(): PrivateScope, Public, HideBySig
+Class ui.PanelPresentArray: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.Array<int>* Array 'get ' : 
+    System.Windows.Forms.ListViewItem SelectedItem 'get ' : 
+  Methods:
+    get_SelectedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_Array(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Array<int>*): PrivateScope, Public, HideBySig
+    refreshItem(ListViewItem): PrivateScope, Public, HideBySig
+    refreshSelectedItem(): PrivateScope, Public, HideBySig
+Class ui.PanelPresentList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.List<int>* List 'get ' : 
+    System.Windows.Forms.ListViewItem SelectedItem 'get ' : 
+  Methods:
+    get_SelectedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_List(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(List<int>*): PrivateScope, Public, HideBySig
+    refreshItem(ListViewItem, Int32): PrivateScope, Public, HideBySig
+    refreshItem(ListViewItem): PrivateScope, Public, HideBySig
+    refreshSelectedItem(): PrivateScope, Public, HideBySig
+Class ui.PanelPresentStack: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Stack<int>*): PrivateScope, Public, HideBySig
+Class ui.PanelPresentQueue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Queue<int>*): PrivateScope, Public, HideBySig
+Class ui.PanelPresentPriorityQueue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(PriorityQueue<int>*): PrivateScope, Public, HideBySig
+Class ui.PanelPresentTree: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.Tree<int>* Tree 'get ' : 
+    structures.TreeNode<int>* SelectedTreeNode 'get ' : 
+    System.Windows.Forms.TreeNode SelectedNode 'get ' : 
+  Methods:
+    get_SelectedNode(): PrivateScope, Public, HideBySig, SpecialName
+    get_SelectedTreeNode(): PrivateScope, Public, HideBySig, SpecialName
+    get_Tree(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Tree<int>*): PrivateScope, Public, HideBySig
+    refreshNode(TreeNode, Int32): PrivateScope, Public, HideBySig
+    listSubtreeOfSelectedNode(): PrivateScope, Public, HideBySig
+Class ui.PanelPresentTable: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.Table<int\,int>* Table 'get ' : 
+    System.Windows.Forms.ListViewItem SelectedItem 'get ' : 
+  Methods:
+    get_SelectedItem(): PrivateScope, Public, HideBySig, SpecialName
+    get_Table(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Table<int\,int>*): PrivateScope, Public, HideBySig
+    refreshItem(ListViewItem, Int32, Int32): PrivateScope, Public, HideBySig
+Class ui.PanelPresentGraph: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    structures.Graph* Graph 'get ' : 
+  Methods:
+    get_Graph(): PrivateScope, Public, HideBySig, SpecialName
+    initialize(ControlsHolder): PrivateScope, Public, HideBySig
+    visualize(Graph*): PrivateScope, Public, HideBySig
+    refreshVertexItem(ListViewItem, GraphVertex*): PrivateScope, Public, HideBySig
+    refreshEdgeItem(ListViewItem, GraphEdge*): PrivateScope, Public, HideBySig
+    tryGetSelectedVertexId(Int32&): PrivateScope, Public, HideBySig
+    tryGetSelectedEdgeBeginVertexId(Int32&): PrivateScope, Public, HideBySig
+    tryGetSelectedEdgeEndVertexId(Int32&): PrivateScope, Public, HideBySig

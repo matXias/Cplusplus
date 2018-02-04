@@ -1,0 +1,12 @@
+﻿  main.cpp
+  UchadzaciInfo.cpp
+  Okres.cpp
+  NezamestnanostiInfo.cpp
+  DataParser.cpp
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\dataparser.cpp(159): warning C4244: 'initializing': conversion from 'double' to 'long', possible loss of data
+  Comparators.cpp
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\comparators.cpp(40): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Aplikacia.cpp
+  Generating Code...
+  sprac_stat_nezamest.vcxproj -> C:\Users\matus\OneDrive\US\semestralka2\sprac_stat_nezamest\x64\Debug\sprac_stat_nezamest.exe
+  sprac_stat_nezamest.vcxproj -> C:\Users\matus\OneDrive\US\semestralka2\sprac_stat_nezamest\x64\Debug\sprac_stat_nezamest.pdb (Full PDB)

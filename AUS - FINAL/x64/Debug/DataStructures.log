@@ -1,0 +1,33 @@
+﻿  form_data.cpp
+  graph_data.cpp
+  form_main.cpp
+  data_routines.cpp
+  dijkstra.cpp
+  bi_star_graph.cpp
+  forward_star_graph.cpp
+  graph.cpp
+  graph_with_registration.cpp
+  memory_routines.cpp
+  sort.cpp
+  vector.cpp
+  action_history.cpp
+  panel_action_history.cpp
+  color_scheme.cpp
+  structure_info_holder.cpp
+  panel_logger.cpp
+  ui_logger.cpp
+  controls.cpp
+  panel_controls.cpp
+  Generating Code...
+  Compiling...
+  panel_performance_chart.cpp
+  performance.cpp
+  panel_sorting.cpp
+  ui_routines.cpp
+  structure.cpp
+  ds_routines.cpp
+  ds_structure_factory.cpp
+  Generating Code...
+  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
+  DataStructures.vcxproj -> C:\Users\Marek\Desktop\AUS\x64\Debug\DataStructures.exe
+  DataStructures.vcxproj -> C:\Users\Marek\Desktop\AUS\x64\Debug\DataStructures.pdb (Full PDB)

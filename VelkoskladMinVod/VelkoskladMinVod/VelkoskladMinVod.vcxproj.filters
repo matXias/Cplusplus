@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\S">
+      <UniqueIdentifier>{c60de68f-2b8c-4546-8b77-90f6eb0dee9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\S">
+      <UniqueIdentifier>{04626f84-ef31-4ce9-9184-274ff70242f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Datum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodavatel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineralnaVoda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Predajna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Zakaznik.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EANkod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Velkosklad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodavka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayList.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="DSRoutines.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="Structure.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="Aplikacia.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureID.h">
+      <Filter>Header Files\S</Filter>
+    </ClInclude>
+    <ClInclude Include="Poziadavka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PolozkaPoziadavky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dodavatel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MineralnaVoda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Predajna.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Zakaznik.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EANkod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Velkosklad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodavka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Source Files\S</Filter>
+    </ClCompile>
+    <ClCompile Include="Structure.cpp">
+      <Filter>Source Files\S</Filter>
+    </ClCompile>
+    <ClCompile Include="DSRoutines.cpp">
+      <Filter>Source Files\S</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplikacia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Poziadavka.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PolozkaPoziadavky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

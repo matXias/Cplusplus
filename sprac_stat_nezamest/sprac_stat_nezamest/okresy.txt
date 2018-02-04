@@ -1,0 +1,79 @@
+Bratislava I
+Bratislava II
+Bratislava III
+Bratislava IV
+Bratislava V
+Malacky
+Pezinok
+Senec
+Dunajska Streda
+Galanta
+Hlohovec
+Piestany
+Senica
+Skalica
+Trnava
+Banovce nad Bebravou
+Ilava
+Myjava
+Nove Mesto nad Vahom
+Partizanske
+Povazska Bystrica
+Prievidza
+Puchov
+Trencin
+Komarno
+Levice
+Nitra
+Nove Zamky
+Sala
+Topolcany
+Zlate Moravce
+Bytca
+Cadca
+Dolny Kubin
+Kysucke Nove Mesto
+Liptovsky Mikulas
+Martin
+Namestovo
+Ruzomberok
+Turcianske Teplice
+Tvrdosin
+Zilina
+Banska Bystrica
+Banska Stiavnica
+Brezno
+Detva
+Krupina
+Lucenec
+Poltar
+Revuca
+Rimavska Sobota
+Velky Krtis
+Zvolen
+Zarnovica
+Ziar nad Hronom
+Bardejov
+Humenne
+Kezmarok
+Levoca
+Medzilaborce
+Poprad
+Presov
+Sabinov
+Snina
+Stara Lubovna
+Stropkov
+Svidnik
+Vranov nad Toplou
+Gelnica
+Kosice I
+Kosice II
+Kosice III
+Kosice IV
+Kosice - okolie
+Michalovce
+Roznava
+Sobrance
+Spisska Nova Ves
+Trebisov

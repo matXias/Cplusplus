@@ -1,0 +1,12 @@
+﻿  Okres.cpp
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(138): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(140): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(154): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\matus\onedrive\us\semestralka2\sprac_stat_nezamest\sprac_stat_nezamest\okres.cpp(29): warning C4172: returning address of local variable or temporary: okres
+  sprac_stat_nezamest.vcxproj -> C:\Users\matus\OneDrive\US\semestralka2\sprac_stat_nezamest\Debug\sprac_stat_nezamest.exe
+  sprac_stat_nezamest.vcxproj -> C:\Users\matus\OneDrive\US\semestralka2\sprac_stat_nezamest\Debug\sprac_stat_nezamest.pdb (Full PDB)

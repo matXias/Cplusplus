@@ -1,0 +1,18 @@
+﻿  Velkosklad.cpp
+e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\velkosklad.cpp(23): warning C4018: '<': signed/unsigned mismatch
+e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\velkosklad.cpp(38): warning C4018: '<': signed/unsigned mismatch
+e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\velkosklad.cpp(51): warning C4018: '<': signed/unsigned mismatch
+e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\velkosklad.cpp(62): warning C4018: '<': signed/unsigned mismatch
+e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\arraylist.h(187): warning C4018: '<': signed/unsigned mismatch
+  e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\arraylist.h(186): note: while compiling class template member function 'int DS::ArrayList<Dodavatel *>::getIndexOf(const T &)'
+          with
+          [
+              T=Dodavatel *
+          ]
+  e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\arraylist.h(166): note: see reference to function template instantiation 'int DS::ArrayList<Dodavatel *>::getIndexOf(const T &)' being compiled
+          with
+          [
+              T=Dodavatel *
+          ]
+  e:\fri it\2.ročník\4.semester\údajové štruktúry\semestrálka 1\nová složka\velkoskladminvod\velkoskladminvod\velkosklad.cpp(7): note: see reference to class template instantiation 'DS::ArrayList<Dodavatel *>' being compiled
+  VelkoskladMinVod.vcxproj -> E:\Fri It\2.ročník\4.semester\Údajové štruktúry\Semestrálka 1\Nová složka\VelkoskladMinVod\Debug\VelkoskladMinVod.exe
